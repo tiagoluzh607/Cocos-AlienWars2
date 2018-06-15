@@ -7,7 +7,7 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1932,
+      "width": 1936,
       "height": 1056,
       "layout": {
         "children": [
@@ -84,7 +84,8 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1529102873111": {}
   },
   "panels": {
     "project-settings": {
@@ -92,6 +93,12 @@
       "y": 240,
       "width": 600,
       "height": 565
+    },
+    "builder": {
+      "x": 702,
+      "y": 140,
+      "width": 516,
+      "height": 739
     }
   }
 }
