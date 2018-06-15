@@ -59,13 +59,11 @@ cc.Class({
         var posicaoMouse = event.getLocation();
         posicaoMouse = new cc.Vec2(posicaoMouse.x, posicaoMouse.y);
 
-        var direcao = posicaoMouse.sub(this.node.position);
-        direcao = direcao.normalize();
-        this._direcao = direcao;
+        //Calcula direcao herdado da classe personagem
+        this._direcao = this.calcularDirecao(posicaoMouse);
 
-        //rotacionar imagem
-        var angulo = Math.atan2(direcao.y, direcao.x); //retorna em radiano
-        this.node.rotation = -angulo * (180 / Math.PI); // transforma de radianos em graus
+        //rotacionar imagem 
+        this.node.rotation = this.olharPara(this._direcao);
     },
 
     teclaPressionada: function teclaPressionada(event) {

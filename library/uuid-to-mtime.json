@@ -279,24 +279,24 @@
     "meta": 1529099412677,
     "relativePath": "GameOver.fire"
   },
-  "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
-    "asset": 1529098963272,
-    "meta": 1529099061354,
-    "relativePath": "Personagem.js"
-  },
   "be1af4e4-7f03-42a2-affc-e8f37fc24b56": {
     "asset": 1529099366650,
     "meta": 1529099366839,
     "relativePath": "gameOver.jpg"
   },
   "708fc513-b882-4bb8-9405-9ea7051a1a89": {
-    "asset": 1529101296678,
-    "meta": 1529101310213,
+    "asset": 1529102246894,
+    "meta": 1529102251178,
     "relativePath": "Jogador.js"
   },
+  "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
+    "asset": 1529102141992,
+    "meta": 1529102251184,
+    "relativePath": "Personagem.js"
+  },
   "fd006a85-e02c-4a57-af5a-a03a93514d0c": {
-    "asset": 1529101697699,
-    "meta": 1529101700603,
+    "asset": 1529102467276,
+    "meta": 1529102468563,
     "relativePath": "Inimigo.js"
   }
 }

@@ -48,13 +48,11 @@ cc.Class({
 	},
 
 	mudarDirecao: function mudarDirecao() {
-		var direcao = this._alvo.position.sub(this.node.position);
-		direcao = direcao.normalize();
-		this._direcao = direcao;
+
+		this._direcao = this.calcularDirecao(this._alvo.position); //funcao herdada da class personagem
 
 		//Rotação
-		var angulo = Math.atan2(direcao.y, direcao.x);
-		this.node.rotation = -angulo * (180 / Math.PI);
+		this.node.rotation = this.olharPara(this._direcao); //funcao herdada da class personagem
 	},
 
 	update: function update(dt) {

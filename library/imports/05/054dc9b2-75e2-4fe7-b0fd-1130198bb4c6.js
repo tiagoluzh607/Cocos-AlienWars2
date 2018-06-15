@@ -16,6 +16,19 @@ var Personagem = cc.Class({
 				// use this for initialization
 				onLoad: function onLoad() {},
 
+				calcularDirecao: function calcularDirecao(destino) {
+
+								var direcao = destino.sub(this.node.position);
+								direcao = direcao.normalize();
+								return direcao;
+				},
+
+				olharPara: function olharPara(direcao) {
+								var angulo = Math.atan2(direcao.y, direcao.x); //retorna em radiano
+								angulo = -angulo * (180 / Math.PI); // transforma de radianos em graus
+								return angulo;
+				},
+
 				atirar: function atirar() {
 								var disparo = cc.instantiate(this.tiroPrefab);
 								disparo.parent = this.node.parent;
