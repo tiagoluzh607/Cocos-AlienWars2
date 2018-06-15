@@ -28,7 +28,7 @@ let Personagem = cc.Class({
 	
     onCollisionEnter:function(outro, eu)
     {
-
+		
     },
 
     // called every frame, uncomment this function to activate update callback

@@ -45,6 +45,10 @@ cc.Class({
 		let porcentagemVida = this._vidaAtual/this.vidaMaxima;
 		this.barraVida.progress = porcentagemVida;
 		
+		if(this._vidaAtual < 0){
+			cc.director.loadScene("GameOver"); //direciona para cena do gameover
+		}
+		
 	},
 	
     mudarDirecao: function(event)
@@ -55,6 +59,11 @@ cc.Class({
         let direcao = posicaoMouse.sub(this.node.position);
         direcao = direcao.normalize();
         this._direcao = direcao;
+		
+		//rotacionar imagem
+		let angulo = Math.atan2(direcao.y, direcao.x); //retorna em radiano
+		this.node.rotation = -angulo * (180/Math.PI); // transforma de radianos em graus
+		
     },
     
     teclaPressionada: function(event)

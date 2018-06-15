@@ -99,3 +99,21 @@
     at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
     at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
     at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
+2018-06-15T21:41:52.789Z - failed: Failed to drop asset 843ccce0-a655-4fec-93d2-76bb23e5d063, message: Error: Can not create node from cc.RawAsset
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils.js:1:383
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-15T21:42:01.247Z - failed: Failed to drop asset 843ccce0-a655-4fec-93d2-76bb23e5d063, message: Error: Can not create node from cc.RawAsset
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils.js:1:383
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-15T21:42:26.055Z - failed: Failed to drop asset 843ccce0-a655-4fec-93d2-76bb23e5d063, message: Error: Can not create node from cc.RawAsset
+    at C:\CocosCreator\resources\app.asar\editor\page\scene-utils\utils.js:1:383
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCAssetLibrary.js:130:25
+    at EventEmitter.ipcRenderer.on.n (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)

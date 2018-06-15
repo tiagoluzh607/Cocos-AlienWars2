@@ -254,20 +254,10 @@
     "meta": 1529086316480,
     "relativePath": "enemy.prefab"
   },
-  "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
-    "asset": 1529089131688,
-    "meta": 1529089395342,
-    "relativePath": "Personagem.js"
-  },
   "141bf9c6-fd00-4189-8a5c-7c9a38867a6b": {
     "asset": 1529090182361,
     "meta": 1529090184462,
     "relativePath": "Tiro.js"
-  },
-  "708fc513-b882-4bb8-9405-9ea7051a1a89": {
-    "asset": 1529097426845,
-    "meta": 1529097431094,
-    "relativePath": "Jogador.js"
   },
   "fd006a85-e02c-4a57-af5a-a03a93514d0c": {
     "asset": 1529097536179,
@@ -290,8 +280,23 @@
     "relativePath": "bg_stars.png"
   },
   "6f220e7a-3d63-4e26-975f-05e4bd7d8057": {
-    "asset": 1529098632605,
-    "meta": 1529098643165,
+    "asset": 1529099412619,
+    "meta": 1529099412677,
     "relativePath": "GameOver.fire"
+  },
+  "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
+    "asset": 1529098963272,
+    "meta": 1529099061354,
+    "relativePath": "Personagem.js"
+  },
+  "be1af4e4-7f03-42a2-affc-e8f37fc24b56": {
+    "asset": 1529099366650,
+    "meta": 1529099366839,
+    "relativePath": "gameOver.jpg"
+  },
+  "708fc513-b882-4bb8-9405-9ea7051a1a89": {
+    "asset": 1529101296678,
+    "meta": 1529101310213,
+    "relativePath": "Jogador.js"
   }
 }
