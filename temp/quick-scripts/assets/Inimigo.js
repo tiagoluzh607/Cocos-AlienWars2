@@ -51,6 +51,10 @@ cc.Class({
 		var direcao = this._alvo.position.sub(this.node.position);
 		direcao = direcao.normalize();
 		this._direcao = direcao;
+
+		//Rotação
+		var angulo = Math.atan2(direcao.y, direcao.x);
+		this.node.rotation = -angulo * (180 / Math.PI);
 	},
 
 	update: function update(dt) {

@@ -259,11 +259,6 @@
     "meta": 1529090184462,
     "relativePath": "Tiro.js"
   },
-  "fd006a85-e02c-4a57-af5a-a03a93514d0c": {
-    "asset": 1529097536179,
-    "meta": 1529097537882,
-    "relativePath": "Inimigo.js"
-  },
   "e904aa32-48a4-4a5d-9da3-cbef531d2179": {
     "asset": 1529097987940,
     "meta": 1529097993209,
@@ -298,5 +293,10 @@
     "asset": 1529101296678,
     "meta": 1529101310213,
     "relativePath": "Jogador.js"
+  },
+  "fd006a85-e02c-4a57-af5a-a03a93514d0c": {
+    "asset": 1529101697699,
+    "meta": 1529101700603,
+    "relativePath": "Inimigo.js"
   }
 }
