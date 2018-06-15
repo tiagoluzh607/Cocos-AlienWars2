@@ -1,52 +1,72 @@
-2017-09-05T14:48:40.386Z - normal: Load ~/.CocosCreator/settings.json
-2017-09-05T14:48:40.390Z - normal: checking language setting...
-2017-09-05T14:48:40.390Z - normal: Language: en
-2017-09-05T14:48:40.837Z - success: protocol editor-framework registered
-2017-09-05T14:48:40.838Z - success: protocol app registered
-2017-09-05T14:48:40.838Z - success: protocol theme registered
-2017-09-05T14:48:40.838Z - success: protocol profile registered
-2017-09-05T14:48:40.838Z - success: protocol packages registered
-2017-09-05T14:48:40.840Z - success: protocol unpack registerred
-2017-09-05T14:48:40.840Z - success: protocol disable-commonjs registerred
-2017-09-05T14:48:43.327Z - normal: connected!
-2017-09-05T14:48:43.328Z - normal: Check project /Users/alura/Documents/Bugan/CocosCreator/Projeto/Aula3
-2017-09-05T14:48:43.329Z - normal: Initializing Cocos2d
-2017-09-05T14:48:43.469Z - normal: Initializing Asset Database
-2017-09-05T14:48:43.491Z - success: protocol uuid registerred
-2017-09-05T14:48:43.491Z - success: protocol db registerred
-2017-09-05T14:48:43.491Z - success: protocol thumbnail registerred
-2017-09-05T14:48:43.492Z - normal: Loading editor/builtin packages
-2017-09-05T14:48:43.509Z - success: anysdk loaded
-2017-09-05T14:48:43.615Z - success: assets loaded
-2017-09-05T14:48:43.619Z - success: builder loaded
-2017-09-05T14:48:43.622Z - success: hierarchy loaded
-2017-09-05T14:48:43.626Z - success: inspector loaded
-2017-09-05T14:48:43.627Z - success: keystore loaded
-2017-09-05T14:48:43.631Z - success: node-library loaded
-2017-09-05T14:48:43.633Z - success: package-asset loaded
-2017-09-05T14:48:43.635Z - success: preferences loaded
-2017-09-05T14:48:43.637Z - success: project-exporter loaded
-2017-09-05T14:48:43.649Z - success: project-importer loaded
-2017-09-05T14:48:43.652Z - success: project-settings loaded
-2017-09-05T14:48:43.656Z - success: ui-kit loaded
-2017-09-05T14:48:43.663Z - success: ui-grid loaded
-2017-09-05T14:48:43.668Z - success: scene loaded
-2017-09-05T14:48:43.669Z - success: sprite-editor loaded
-2017-09-05T14:48:43.673Z - success: store loaded
-2017-09-05T14:48:43.678Z - success: timeline loaded
-2017-09-05T14:48:43.679Z - normal: Loading builtin packages
-2017-09-05T14:48:43.683Z - success: asset-db-debugger loaded
-2017-09-05T14:48:43.683Z - success: color-picker loaded
-2017-09-05T14:48:43.688Z - success: console loaded
-2017-09-05T14:48:43.692Z - success: package-manager loaded
-2017-09-05T14:48:43.696Z - success: sdkbox loaded
-2017-09-05T14:48:43.700Z - success: tester loaded
-2017-09-05T14:48:43.704Z - success: ui-kit-preview-extra loaded
-2017-09-05T14:48:43.707Z - success: ui-kit-preview loaded
-2017-09-05T14:48:43.710Z - success: ui-tree loaded
-2017-09-05T14:48:44.373Z - normal: Initializing project /Users/alura/Documents/Bugan/CocosCreator/Projeto/Aula3
-2017-09-05T14:48:44.375Z - normal: Loading packages
-2017-09-05T14:48:44.380Z - normal: Watching packages
-2017-09-05T14:48:44.392Z - normal: Run Application
-2017-09-05T14:48:45.122Z - success: preview server running at http://localhost:7456
-2017-09-05T14:48:48.753Z - normal: 1.6.1
+2018-06-15T17:16:10.238Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-15T17:16:10.254Z - normal: checking language setting...
+2018-06-15T17:16:10.254Z - normal: Language: en
+2018-06-15T17:16:12.185Z - success: protocol editor-framework registered
+2018-06-15T17:16:12.186Z - success: protocol app registered
+2018-06-15T17:16:12.186Z - success: protocol theme registered
+2018-06-15T17:16:12.187Z - success: protocol packages registered
+2018-06-15T17:16:12.187Z - success: protocol unpack registerred
+2018-06-15T17:16:12.187Z - success: protocol disable-commonjs registerred
+2018-06-15T17:16:15.183Z - normal: failed to connect login server due to request timeout
+2018-06-15T17:16:15.185Z - normal: Check project C:\Users\tiagoluz\Documents\cocos
+2018-06-15T17:16:15.187Z - normal: Initializing Cocos2d
+2018-06-15T17:16:15.486Z - normal: Initializing Asset Database
+2018-06-15T17:16:15.543Z - success: protocol uuid registerred
+2018-06-15T17:16:15.544Z - success: protocol db registerred
+2018-06-15T17:16:15.544Z - success: protocol thumbnail registerred
+2018-06-15T17:16:15.544Z - normal: Loading editor/builtin packages
+2018-06-15T17:16:15.581Z - success: anysdk loaded
+2018-06-15T17:16:15.730Z - success: assets loaded
+2018-06-15T17:16:15.733Z - success: builder loaded
+2018-06-15T17:16:15.736Z - success: cocos-analytics loaded
+2018-06-15T17:16:15.740Z - success: console loaded
+2018-06-15T17:16:15.792Z - success: fb-instant-games loaded
+2018-06-15T17:16:15.795Z - success: hierarchy loaded
+2018-06-15T17:16:15.798Z - success: inspector loaded
+2018-06-15T17:16:15.799Z - success: keystore loaded
+2018-06-15T17:16:15.803Z - success: node-library loaded
+2018-06-15T17:16:15.805Z - success: package-asset loaded
+2018-06-15T17:16:15.808Z - success: preferences loaded
+2018-06-15T17:16:15.810Z - success: project-exporter loaded
+2018-06-15T17:16:15.828Z - success: project-importer loaded
+2018-06-15T17:16:15.830Z - success: project-settings loaded
+2018-06-15T17:16:15.833Z - success: ui-kit loaded
+2018-06-15T17:16:15.835Z - success: ui-grid loaded
+2018-06-15T17:16:15.837Z - success: scene loaded
+2018-06-15T17:16:15.839Z - success: sprite-editor loaded
+2018-06-15T17:16:15.845Z - success: store loaded
+2018-06-15T17:16:15.850Z - success: timeline loaded
+2018-06-15T17:16:15.851Z - normal: Loading builtin packages
+2018-06-15T17:16:15.853Z - success: asset-db-debugger loaded
+2018-06-15T17:16:15.855Z - success: code-editor loaded
+2018-06-15T17:16:15.855Z - success: color-picker loaded
+2018-06-15T17:16:15.857Z - success: package-manager loaded
+2018-06-15T17:16:15.863Z - success: sdkbox loaded
+2018-06-15T17:16:15.867Z - success: tester loaded
+2018-06-15T17:16:15.869Z - success: ui-kit-preview-extra loaded
+2018-06-15T17:16:15.870Z - success: ui-kit-preview loaded
+2018-06-15T17:16:15.873Z - success: ui-tree loaded
+2018-06-15T17:16:17.361Z - normal: Initializing project C:\Users\tiagoluz\Documents\cocos
+2018-06-15T17:16:17.375Z - normal: Loading packages
+2018-06-15T17:16:17.379Z - normal: Watching packages
+2018-06-15T17:16:17.395Z - normal: Run Application
+2018-06-15T17:16:19.014Z - success: preview server running at http://localhost:7456
+2018-06-15T17:16:25.512Z - normal: 1.9.1
+2018-06-15T17:16:33.291Z - error: { Error: connect ETIMEDOUT 211.151.21.150:443
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '211.151.21.150',
+  port: 443 }
+    at C:\CocosCreator\resources\app.asar\share\login\lib\user.js:1:1441
+    at ClientRequest.Https.request.on.e (C:\CocosCreator\resources\app.asar\share\login\lib\network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1283:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
