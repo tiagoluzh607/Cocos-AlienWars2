@@ -15,12 +15,17 @@ cc.Class({
        inimigoPrefab : cc.Prefab,
 	   area: 60,
 	   tempo: 2,
+	   espera: 3
         // },
     },
 
 
      onLoad: function() {
 		 
+		 this.scheduleOnce(this.iniciarGeracao, this.espera); // scheduleOnce chama uma unica vez depois de um certo tempo
+	 },
+	 
+	 iniciarGeracao: function(){
 		 this.schedule(this.gerar, this.tempo); // schedule agenda chama a classe de gerar de tanto em tanto tempo
 	 },
 

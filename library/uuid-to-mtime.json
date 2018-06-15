@@ -230,8 +230,8 @@
     "relativePath": "enemy.png"
   },
   "4369928f-80d0-4f85-908d-d22c35dccbcf": {
-    "asset": 1528501750176,
-    "meta": 1528501793140,
+    "asset": 1529098662620,
+    "meta": 1529098662696,
     "relativePath": "Jogo.fire"
   },
   "6342932f-4c12-471e-9b62-899795bbf87f": {
@@ -254,11 +254,6 @@
     "meta": 1529086316480,
     "relativePath": "enemy.prefab"
   },
-  "e904aa32-48a4-4a5d-9da3-cbef531d2179": {
-    "asset": 1529084063102,
-    "meta": 1529084110886,
-    "relativePath": "Gerador.js"
-  },
   "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
     "asset": 1529089131688,
     "meta": 1529089395342,
@@ -278,5 +273,25 @@
     "asset": 1529097536179,
     "meta": 1529097537882,
     "relativePath": "Inimigo.js"
+  },
+  "e904aa32-48a4-4a5d-9da3-cbef531d2179": {
+    "asset": 1529097987940,
+    "meta": 1529097993209,
+    "relativePath": "Gerador.js"
+  },
+  "298e23bd-dce6-475d-a5ec-161c40156525": {
+    "asset": 1529098386952,
+    "meta": 1529098387086,
+    "relativePath": "bg_cloud.png"
+  },
+  "71336540-c249-495a-b1fc-2f258f172ebc": {
+    "asset": 1529098386952,
+    "meta": 1529098387102,
+    "relativePath": "bg_stars.png"
+  },
+  "6f220e7a-3d63-4e26-975f-05e4bd7d8057": {
+    "asset": 1529098632605,
+    "meta": 1529098643165,
+    "relativePath": "GameOver.fire"
   }
 }

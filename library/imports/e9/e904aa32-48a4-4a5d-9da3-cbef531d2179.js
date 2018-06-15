@@ -15,32 +15,37 @@ cc._RF.push(module, 'e904aoySKRKXZ2jy+9THSF5', 'Gerador');
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-				extends: cc.Component,
+	extends: cc.Component,
 
-				properties: {
-								inimigoPrefab: cc.Prefab,
-								area: 60,
-								tempo: 2
-								// },
-				},
+	properties: {
+		inimigoPrefab: cc.Prefab,
+		area: 60,
+		tempo: 2,
+		espera: 3
+		// },
+	},
 
-				onLoad: function onLoad() {
+	onLoad: function onLoad() {
 
-								this.schedule(this.gerar, this.tempo); // schedule agenda chama a classe de gerar de tanto em tanto tempo
-				},
+		this.scheduleOnce(this.iniciarGeracao, this.espera); // scheduleOnce chama uma unica vez depois de um certo tempo
+	},
 
-				gerar: function gerar() {
-								var inimigo = cc.instantiate(this.inimigoPrefab);
-								inimigo.parent = this.node.parent;
+	iniciarGeracao: function iniciarGeracao() {
+		this.schedule(this.gerar, this.tempo); // schedule agenda chama a classe de gerar de tanto em tanto tempo
+	},
 
-								var posicao = new cc.Vec2(Math.random() - .5, Math.random() - .5); //diminuindo -0.5 pois o randown só vai até 1 assim fica possivel a posicao ser criada em aqualquer eixo positivo ou negativo
-								posicao = posicao.normalize();
-								posicao = posicao.mul(this.area);
-								posicao = this.node.position.add(posicao);
+	gerar: function gerar() {
+		var inimigo = cc.instantiate(this.inimigoPrefab);
+		inimigo.parent = this.node.parent;
 
-								inimigo.position = posicao;
-				}
-				// update (dt) {},
+		var posicao = new cc.Vec2(Math.random() - .5, Math.random() - .5); //diminuindo -0.5 pois o randown só vai até 1 assim fica possivel a posicao ser criada em aqualquer eixo positivo ou negativo
+		posicao = posicao.normalize();
+		posicao = posicao.mul(this.area);
+		posicao = this.node.position.add(posicao);
+
+		inimigo.position = posicao;
+	}
+	// update (dt) {},
 });
 
 cc._RF.pop();
