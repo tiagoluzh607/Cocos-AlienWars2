@@ -15,7 +15,12 @@ cc.Class({
     onCollisionEnter:function(outro, eu)
     {
       console.log("colidiu"); 
-        outro.node.destroy();
+        let personagem = outro.getComponent("Personagem");
+		if(personagem != null){
+			personagem.tomarDano(2);
+		}else{
+			outro.node.destroy();
+		}
         eu.node.destroy();
     },
 

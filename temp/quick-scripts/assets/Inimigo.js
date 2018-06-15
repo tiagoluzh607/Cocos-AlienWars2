@@ -4,27 +4,18 @@ cc._RF.push(module, 'fd006qF4CxKV69aoDqTUU0M', 'Inimigo', __filename);
 
 "use strict";
 
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+var Personagem = require("Personagem");
 cc.Class({
-	extends: cc.Component,
+	extends: Personagem,
 
 	properties: {
 
 		_alvo: cc.Node,
-		_direcao: cc.Vec2,
+		//_direcao: cc.Vec2, vem com a herança de personagem
 		velocidade: 50,
 
 		//tiro
-		tiroPrefab: cc.Prefab,
+		//tiroPrefab: cc.Prefab, vem com a herança de personagem
 		tempoAtaque: 1
 
 	},
@@ -34,6 +25,10 @@ cc.Class({
 		this._alvo = cc.find("hero"); //buscando node do hero
 
 		this.schedule(this.atirar, this.tempoAtaque);
+	},
+
+	tomarDano: function tomarDano() {
+		this.node.destroy();
 	},
 
 	atirar: function atirar() {

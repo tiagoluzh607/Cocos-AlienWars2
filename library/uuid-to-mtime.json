@@ -244,11 +244,6 @@
     "meta": 1528501793145,
     "relativePath": "Tiro.prefab"
   },
-  "141bf9c6-fd00-4189-8a5c-7c9a38867a6b": {
-    "asset": 1528501750178,
-    "meta": 1528501793131,
-    "relativePath": "Tiro.js"
-  },
   "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
     "asset": 1524010632000,
     "meta": 1529082977671,
@@ -264,14 +259,24 @@
     "meta": 1529084110886,
     "relativePath": "Gerador.js"
   },
+  "054dc9b2-75e2-4fe7-b0fd-1130198bb4c6": {
+    "asset": 1529089131688,
+    "meta": 1529089395342,
+    "relativePath": "Personagem.js"
+  },
+  "141bf9c6-fd00-4189-8a5c-7c9a38867a6b": {
+    "asset": 1529090182361,
+    "meta": 1529090184462,
+    "relativePath": "Tiro.js"
+  },
   "fd006a85-e02c-4a57-af5a-a03a93514d0c": {
-    "asset": 1529086470656,
-    "meta": 1529086472127,
+    "asset": 1529090392342,
+    "meta": 1529090394008,
     "relativePath": "Inimigo.js"
   },
   "708fc513-b882-4bb8-9405-9ea7051a1a89": {
-    "asset": 1529086481939,
-    "meta": 1529086483324,
+    "asset": 1529096639860,
+    "meta": 1529096645839,
     "relativePath": "Jogador.js"
   }
 }

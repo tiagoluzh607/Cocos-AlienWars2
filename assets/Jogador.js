@@ -1,16 +1,25 @@
+let Personagem = require("Personagem");
 cc.Class({
-    extends: cc.Component,
+    extends: Personagem,
 
     properties: {
         _acelerando:false,
-        _direcao: cc.Vec2,
+        //_direcao: cc.Vec2, vem da herança
         
-        tiroPrefab: cc.Prefab,
+        //tiroPrefab: cc.Prefab, vem da herança
+		_vidaAtual: 0,
+		vidaMaxima : 100,
+		
         velocidade: 10,
+		barraVida : cc.ProgressBar
     },
 
     // use this for initialization
     onLoad: function () {
+		
+		this._vidaAtual = this.vidaMaxima; //iniciandoa vida atual
+		this.barraVida.progress = 1; //Deixando a barra de vida cheia ao iniciar
+		
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.teclaPressionada, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.teclaSolta, this);
         
@@ -22,18 +31,13 @@ cc.Class({
         
     },
     
-    atirar: function(event)
-    {
-        let tiro = cc.instantiate(this.tiroPrefab);
-        tiro.parent = this.node.parent;
-        tiro.position = this.node.position;
-		tiro.group = this.node.group; //o grupo de colisão do tiro é o mesmo que o grupo de colisão do jogador
+	tomarDano: function(dano){
+		this._vidaAtual -= dano;
+		let porcentagemVida = this._vidaAtual/this.vidaMaxima;
+		this.barraVida.progress = porcentagemVida;
 		
-        
-        let componenteTiro = tiro.getComponent("Tiro");
-        componenteTiro.direcao = this._direcao;
-    },
-    
+	},
+	
     mudarDirecao: function(event)
     {
         let posicaoMouse = event.getLocation();

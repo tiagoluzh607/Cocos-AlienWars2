@@ -70,3 +70,32 @@
     at TLSSocket.emit (events.js:191:7)
     at emitErrorNT (net.js:1283:8)
     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-06-15T19:03:15.735Z - failed: load script [C:\Users\tiagoluz\Documents\cocos\temp\quick-scripts\assets\Jogador.js] failed : ReferenceError: required is not defined
+    at __define (C:\Users\tiagoluz\Documents\cocos\temp\quick-scripts\assets\Jogador.js:7:18)
+    at C:\Users\tiagoluz\Documents\cocos\temp\quick-scripts\assets\Jogador.js:64:13
+    at Object.<anonymous> (C:\Users\tiagoluz\Documents\cocos\temp\quick-scripts\assets\Jogador.js:71:11)
+    at Object.<anonymous> (C:\Users\tiagoluz\Documents\cocos\temp\quick-scripts\assets\Jogador.js:74:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-06-15T19:18:29.636Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\tiagoluz\Documents\cocos\assets\Inimigo.js, message: Compile error: SyntaxError: C:/Users/tiagoluz/Documents/cocos/assets/Inimigo.js: Unexpected token, expected , (27:21)
+  25 | 	},
+  26 | 	
+> 27 | 	tomarDano: fuction(){
+     | 	                    ^
+  28 | 		this.node.destroy();
+  29 | 	},
+  30 | 	
+    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
+    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
+    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
+    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
+    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
