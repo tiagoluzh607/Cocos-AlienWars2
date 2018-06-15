@@ -11,7 +11,11 @@ cc.Class({
 		vidaMaxima : 100,
 		
         velocidade: 10,
-		barraVida : cc.ProgressBar
+		barraVida : cc.ProgressBar,
+		
+		//pontos
+		pontuacao : 0,
+		label : cc.Label
     },
 
     // use this for initialization
@@ -30,6 +34,11 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
         
     },
+	
+	adicionarPonto: function(pontos){
+		this.pontuacao += pontos;
+		this.label.string = "Pontos: "+ this.pontuacao;
+	},
     
 	tomarDano: function(dano){
 		this._vidaAtual -= dano;

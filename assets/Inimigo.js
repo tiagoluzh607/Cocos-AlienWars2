@@ -25,6 +25,11 @@ cc.Class({
 	},
 	
 	tomarDano: function(){
+	
+		//adiciona ponto ao jogador
+		let jogador = this._alvo.getComponent("Jogador");
+		jogador.adicionarPonto(10);
+	
 		this.node.destroy();
 	},
 	

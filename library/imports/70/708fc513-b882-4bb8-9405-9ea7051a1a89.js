@@ -17,7 +17,11 @@ cc.Class({
         vidaMaxima: 100,
 
         velocidade: 10,
-        barraVida: cc.ProgressBar
+        barraVida: cc.ProgressBar,
+
+        //pontos
+        pontuacao: 0,
+        label: cc.Label
     },
 
     // use this for initialization
@@ -34,6 +38,11 @@ cc.Class({
         canvas.on("mousedown", this.atirar, this);
 
         cc.director.getCollisionManager().enabled = true;
+    },
+
+    adicionarPonto: function adicionarPonto(pontos) {
+        this.pontuacao += pontos;
+        this.label.string = "Pontos: " + this.pontuacao;
     },
 
     tomarDano: function tomarDano(dano) {
