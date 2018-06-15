@@ -18,6 +18,7 @@ cc.Class({
 	  _direcao: cc.Vec2,
 	  velocidade: 50,
 	  
+	  //tiro
 	  tiroPrefab: cc.Prefab,
 	  tempoAtaque: 1,
 	  
@@ -35,6 +36,7 @@ cc.Class({
 		let disparo = cc.instantiate(this.tiroPrefab);
 		disparo.parent = this.node.parent;
 		disparo.position = this.node.position;
+		disparo.group = this.node.group; //o grupo de colisão do tiro é o mesmo que o grupo de colisão do inimigo
 		
 		//direcao do disparo
 		let componenteTiro = disparo.getComponent("Tiro");

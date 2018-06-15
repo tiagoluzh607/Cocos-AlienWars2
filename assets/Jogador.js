@@ -27,6 +27,8 @@ cc.Class({
         let tiro = cc.instantiate(this.tiroPrefab);
         tiro.parent = this.node.parent;
         tiro.position = this.node.position;
+		tiro.group = this.node.group; //o grupo de colisão do tiro é o mesmo que o grupo de colisão do jogador
+		
         
         let componenteTiro = tiro.getComponent("Tiro");
         componenteTiro.direcao = this._direcao;
